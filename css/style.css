@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: serif;
+}
+.container{
+    width: 70%;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+table{
+    width: 100%;
+    border-collapse: collapse;
+
+}
+td, th{
+    border: 2px solid;
+    padding: 10px;
+}
+thead{
+    background-color: tan;
+}
+/* tbody tr:nth-child(odd) {
+    background-color: #000;
+    color: white;
+} */
+tbody tr:hover {
+    background-color: teal;
+}
+tbody td:nth-child(odd) {
+    background: gray;
+}
